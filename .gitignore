@@ -106,3 +106,11 @@ dist
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# Transpiled files
+lib/*.js
+lib/*.d.ts
+bin/*.js
+bin/*.d.ts
+test/*.js
+test/*.d.ts
