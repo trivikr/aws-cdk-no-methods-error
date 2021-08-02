@@ -114,3 +114,11 @@ bin/*.js
 bin/*.d.ts
 test/*.js
 test/*.d.ts
+
+# yarn berry with no zero installs
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

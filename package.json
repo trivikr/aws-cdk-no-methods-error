@@ -1,9 +1,7 @@
 {
   "name": "aws-cdk-no-methods-error",
   "version": "0.1.0",
-  "bin": {
-    "aws-cdk-no-methods-error": "bin/aws-cdk-no-methods-error.js"
-  },
+  "bin": "bin/aws-cdk-no-methods-error.js",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -25,5 +23,6 @@
   "dependencies": {
     "@aws-cdk/core": "1.116.0",
     "source-map-support": "^0.5.16"
-  }
+  },
+  "packageManager": "yarn@3.0.0"
 }
